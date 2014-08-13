@@ -1,0 +1,57 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verge Hack Week</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="http://ea-cdn.voxmedia.com/production/timelinejs/javascripts/embed-0165fe37.js" type="text/javascript"></script>
+    <script src="http://ea-cdn.voxmedia.com/production/timelinejs/javascripts/jquery.min-9fac01b0.js" type="text/javascript"></script>
+  </head>
+  <body>
+    
+    <div class="row">
+      <div class="large-12 columns">
+        <h1><a href="index.html">Welcome to Verge Hack Week</a></h1>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="large-12 columns">
+        <a href="index.html" class="small button">&larr; back to home</a>
+      	<div class="panel">
+	        <h3><strong>Timeline</strong></h3>
+	        <div class="row">
+	        	<div class="large-12 medium-12 columns">
+              <h4>How to use this tool</h4>
+<div class="container">
+  <h5>Create your spreadsheet</h5>
+  <p>Build a new Google Spreadsheet using the <a href="https://drive.google.com/previewtemplate?id=0AppSVxABhnltdEhzQjQ4MlpOaldjTmZLclQxQWFTOUE&mode=public" target="_blank">TimelineJS Template</a>. Once you're done editing, publish the spreadsheet to the web <b>(File > Publish to the Web > Start Publishing)</b>. Refer to Knight Lab's <a href="http://timeline.knightlab.com" target="_blank">TimelineJS site</a> for more information.</p>
+  
+  <h5>Enter your spreadsheet</h5>
+  <p>Copy and paste your spreadsheet's URL here:
+  <br><input type="text" id="url" placeholder="https://docs.google.com/spreadsheet/pub?key=0Agl_Dv6iEbDadHdKcHlHcTB5bzhvbF9iTWwyMmJHdkE&amp;output=html"></p>
+
+  <div class="embed" style="margin-top: 30px; margin-bottom: 60px;">
+    <h5>Generate, copy and paste this code into the 'HTML View' in Chorus</h5>
+    <center><p><button id="build" onclick="embed()">Generate your timeline</button><p>
+    <p><textarea type="text" name="embedcode" id="embedcode"></textarea></center></p>
+  </div>
+
+  <p><strong>Note: </strong>Any changes you make to your spreadsheet should automatically update in the timeline. If you toggle back and forth between HTML and visual view, you will likely have to re-copy and paste the embed code into the HTML view.</p>
+	    	  </div>
+        </div>
+      </div>
+    </div>
+
+   
+    </div>
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
