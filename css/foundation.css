@@ -1791,10 +1791,9 @@ button::-moz-focus-inner {
 
 h1 a{
   font-size: 2.75rem;
-  background-image: url('../img/hack-week.png');
+  background-image: url('../img/hack-week-small.png');
   background-repeat:no-repeat;
-  background-position: center;
-  height: 90px;
+  background-position: left;
   text-indent: -1000px;
   position: fixed;
   top: 0px;
@@ -1802,18 +1801,17 @@ h1 a{
   width: 100%;
   z-index: 10000;
   margin:0px;
-  height:90px;
+  height:45px;
   background-color:#000;
   border-bottom:1px solid #ba4b34;
 }
 .large-12.columns.mainbody {
-  margin-top:90px;
+  margin-top:60px;
   background:#fff;
   border-radius:5px;
   padding:30px;
 }
 .large-12.columns.welcome {
-  background:#000;
 }
 body {
   background:#fff;
