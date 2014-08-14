@@ -1826,6 +1826,11 @@ background: #222;
   background:#fa4b2a;
 }
 
+.panel.tools a img{
+    -webkit-filter: brightness(150%);
+    border-radius: 5px 5px 0px 0px;
+}
+
 .panel.tools a img:hover {
   -webkit-filter: brightness(205%);
   -webkit-transition: all 1s ease;
